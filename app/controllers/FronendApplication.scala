@@ -30,7 +30,7 @@ class FronendApplication @Inject() (ws: WSClient) extends Controller {
   }
   
   def testService = Action {
-    Ok("frontend service is working")
+    Ok("Frontend service is working")
   }
   
 }
